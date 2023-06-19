@@ -1,0 +1,47 @@
+﻿@page
+@using RestaurantThingy.Models
+@model AdminModel
+@{
+    ViewData["Title"] = "Admin";
+}
+
+<h1>Orders To Be Completed</h1>
+
+@if (Model.CompletedOrders.Any())
+{
+    <table>
+        <tr>
+            <th>Order ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Products</th> <!-- New column for products -->
+            <th>Action</th>
+        </tr>
+        @foreach (var order in Model.CompletedOrders)
+        {
+            <tr>
+                <td>@order.OrderId</td>
+                <td>@order.Name</td>
+                <td>@order.Address</td>
+                <td>
+                    <ul>
+                        @foreach (var item in order.Items)
+                        {
+                            <li>@item.Product</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <form method="post" asp-page-handler="Delete" asp-route-orderId="@order.OrderId">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No orders to be completed found.</p>
+}
+
