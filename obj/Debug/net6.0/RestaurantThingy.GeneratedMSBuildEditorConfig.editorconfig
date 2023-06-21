@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/danila/dev/RazorPagesProject/Pages/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/danila/dev/RazorPagesProject/Pages/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29udGFjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,10 +46,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/danila/dev/RazorPagesProject/Pages/Order.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/danila/dev/RazorPagesProject/Pages/OrderConfirmation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/danila/dev/RazorPagesProject/Pages/Privacy.cshtml]
