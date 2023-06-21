@@ -1,55 +1,55 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>@ViewData["Title"] - Umami Sushi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
 </head>
+
 <body>
 <header>
+
+    @{
+        var currentPage = Context.Request.Path.Value;
+    }
+
     <nav class="navbar">
-        <div class="container">
-            <ul>
-                <li class="nav-item">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index">UMAMI SUSHI</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-page="/Order">MENU</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-page="/Delivery">DELIVERY</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-page="/About">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-page="/Contact">CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-page="/Confirmation">temp</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-area="" asp-page="/Admin">temp</a>
-                </li>
-
-            </ul>
+        <div class="navbar-item @(currentPage == "/Index" ? "active" : "")">
+            <a asp-area="" asp-page="/Index">UMAMI SUSHI</a>
         </div>
-
+        <div class="navbar-item @(currentPage == "/Order" ? "active" : "")">
+            <a asp-area="" asp-page="/Order">MENU</a>
+        </div>
+        <div class="navbar-item @(currentPage == "/About" ? "active" : "")">
+            <a asp-area="" asp-page="/About">ABOUT</a>
+        </div>
+        <div class="navbar-item @(currentPage == "/Delivery" ? "active" : "")">
+            <a asp-area="" asp-page="/Delivery">DELIVERY</a>
+        </div>
+        <div class="navbar-item @(currentPage == "/Contact" ? "active" : "")">
+            <a asp-area="" asp-page="/Contact">CONTACT</a>
+        </div>
+        <div class="navbar-item @(currentPage == "/Confirmation" ? "active" : "")">
+            <a asp-area="" asp-page="/Confirmation">TEMP</a>
+        </div>
     </nav>
 </header>
-<div class="container">
+
+<div>
     <main role="main" class="pb-3">
         @RenderBody()
     </main>
 </div>
 
-<footer>
+<footer class="footer">
+    <p>&copy; 2023 Umami Sushi - All rights reserved.</p>
 </footer>
+
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
