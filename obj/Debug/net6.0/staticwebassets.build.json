@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZonkY2vr/QpsjeTjJazSs0+jAnDPO/M+kTfOZjySDQE=",
+  "Hash": "1G4/6xbJ8XPrwmhRJ0LYbXPUL44yclp997FJcx+iyoE=",
   "Source": "RestaurantThingy",
   "BasePath": "_content/RestaurantThingy",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
-    },
-    {
-      "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/css/styles.css",
-      "SourceId": "RestaurantThingy",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/danila/dev/RazorPagesProject/wwwroot/",
-      "BasePath": "_content/RestaurantThingy",
-      "RelativePath": "css/styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
       "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/favicon.ico",

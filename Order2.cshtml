@@ -1,0 +1,39 @@
+﻿@page
+@model RestaurantThingy.Pages.IndexModel
+@{
+    ViewData["Title"] = "Order";
+}
+
+<div class="text-center">
+    <h1>SUSHI SETS</h1>
+
+    <table>
+        <tr>
+            <td>
+                <img src="img/set2.png" width="250" height="250" />
+                <h3>SET 1</h3>
+                <a>45 zł, 12 units</a>
+                <input type="checkbox" name="products" value="SET 1" />
+            </td>
+            <td>
+                <img src="img/set1.png" width="250" height="250" />
+                <h3>SET 2</h3>
+                <a>50 zł, 14 units</a>
+                <input type="checkbox" name="products" value="SET 2" />
+            </td>
+            <td>
+                <img src="img/set4.png" width="250" height="250" />
+                <h3>SET 3</h3>
+                <a>50 zł, 14 units</a>
+                <input type="checkbox" name="products" value="SET 3" />
+            </td>
+        </tr>
+        <!-- add more shit here -->
+    </table>
+
+    <br />
+    <h3>DELIVERY INFORMATION</h3>
+    <!-- add de;ivery details here -->
+
+    <button type="submit">PLACE ORDER</button>
+</div>
