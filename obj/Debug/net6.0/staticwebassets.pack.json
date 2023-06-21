@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
       "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/img/backgorund.jpeg",
+      "PackagePath": "staticwebassets/img/backgorund.jpeg"
     },
     {
       "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/js/site.js",
@@ -35,6 +43,10 @@
     {
       "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/lib/bootstrap/dist/.DS_Store",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/.DS_Store"
+    },
+    {
+      "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/lib/bootstrap/dist/css/.DS_Store",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/.DS_Store"
     },
     {
       "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",

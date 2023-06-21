@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LBwiyIebDs/zAbihhuWfmJUaZijKh2kb0FBzMK9F9Ys=",
+  "Hash": "DiDyr24XVR97xz1a7RWTWEz8UOqXgMlToO3EyVxbWO0=",
   "Source": "RestaurantThingy",
   "BasePath": "_content/RestaurantThingy",
   "Mode": "Default",
@@ -85,6 +85,23 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
+      "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/css/styles.css",
+      "SourceId": "RestaurantThingy",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/danila/dev/RazorPagesProject/wwwroot/",
+      "BasePath": "_content/RestaurantThingy",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
       "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/favicon.ico",
       "SourceId": "RestaurantThingy",
       "SourceType": "Discovered",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/img/backgorund.jpeg",
+      "SourceId": "RestaurantThingy",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/danila/dev/RazorPagesProject/wwwroot/",
+      "BasePath": "_content/RestaurantThingy",
+      "RelativePath": "img/backgorund.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/backgorund.jpeg"
     },
     {
       "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/js/site.js",
@@ -168,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/.DS_Store"
+    },
+    {
+      "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/lib/bootstrap/dist/css/.DS_Store",
+      "SourceId": "RestaurantThingy",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/danila/dev/RazorPagesProject/wwwroot/",
+      "BasePath": "_content/RestaurantThingy",
+      "RelativePath": "lib/bootstrap/dist/css/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/.DS_Store"
     },
     {
       "Identity": "/Users/danila/dev/RazorPagesProject/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",

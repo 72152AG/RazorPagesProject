@@ -1,23 +1,37 @@
 ﻿@page
 @model OrderModel
 @{
-    ViewData["Title"] = "Place Order";
+    ViewData["Title"] = "Order";
 }
+<div class="text-center">
+    <h1>Place your order</h1>
 
-<h1>Place your order</h1>
+    <form method="post">
+        <h3>Product 1</h3>
+        <a>grilled</a>
+        <input type="checkbox" name="products" value="Product 1"> Product 1<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <h3>Product 2</h3>
+        <input type="checkbox" name="products" value="Product 2"> Product 2<br>
+        <!-- Add more product options as needed -->
 
-<form method="post">
-    <h3>Product 1</h3>
-    <input type="checkbox" name="products" value="Product 1"> Product 1<br>
-    <h3>Product 2</h3>
-    <input type="checkbox" name="products" value="Product 2"> Product 2<br>
-    <!-- Add more product options as needed -->
+        <h3>Your information</h3>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name"><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address"><br>
 
-    <h3>Your information</h3>
-    <label for="name">Name:</label>
-    <input type="text" name="name" id="name"><br>
-    <label for="address">Address:</label>
-    <input type="text" name="address" id="address"><br>
-
-    <button type="submit">Place Order</button>
-</form>
+        <button type="submit">Place Order</button>
+    </form>
+</div>
