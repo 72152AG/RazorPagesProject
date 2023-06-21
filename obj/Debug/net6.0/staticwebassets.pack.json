@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/img/backgorund.jpeg",
-      "PackagePath": "staticwebassets/img/backgorund.jpeg"
-    },
-    {
       "Id": "/Users/danila/dev/RazorPagesProject/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

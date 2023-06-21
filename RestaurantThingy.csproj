@@ -19,7 +19,24 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\img\" />
+    <Compile Remove="wwwroot\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="wwwroot\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\img\.DS_Store" />
+    <_ContentIncludedByDefault Remove="wwwroot\img\sushibg.jpeg" />
   </ItemGroup>
 
 </Project>
