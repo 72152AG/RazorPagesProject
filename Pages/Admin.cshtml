@@ -22,7 +22,10 @@
             <tr>
                 <td>@order.OrderId</td>
                 <td>@order.Name</td>
-                <td>@order.Address</td>
+                <td>@order.Street</td> 
+                <td>@order.City</td> 
+                <td>@order.Phone</td>
+                
                 <td>
                     <ul>
                         @foreach (var item in order.Items)
