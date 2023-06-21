@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RestaurantThingy
 build_property.RootNamespace = RestaurantThingy
-build_property.ProjectDir = C:\Users\BM\source\repos\RestaurantThingy\RestaurantThingy\
+build_property.ProjectDir = /Users/danila/dev/RazorPagesProject/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\BM\source\repos\RestaurantThingy\RestaurantThingy
+build_property.MSBuildProjectDirectory = /Users/danila/dev/RazorPagesProject
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Admin.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+[/Users/danila/dev/RazorPagesProject/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/danila/dev/RazorPagesProject/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[/Users/danila/dev/RazorPagesProject/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Order.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXIuY3NodG1s
+[/Users/danila/dev/RazorPagesProject/Pages/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/OrderConfirmation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJDb25maXJtYXRpb24uY3NodG1s
+[/Users/danila/dev/RazorPagesProject/Pages/OrderConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3JkZXJDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+[/Users/danila/dev/RazorPagesProject/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/danila/dev/RazorPagesProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Welcome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VsY29tZS5jc2h0bWw=
+[/Users/danila/dev/RazorPagesProject/Pages/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VsY29tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/danila/dev/RazorPagesProject/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/danila/dev/RazorPagesProject/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/BM/source/repos/RestaurantThingy/RestaurantThingy/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1fgyqn9rm7
+[/Users/danila/dev/RazorPagesProject/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sc2ev1oaex

@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BM\\source\\repos\\RestaurantThingy\\RestaurantThingy\\RestaurantThingy.csproj": {}
+    "/Users/danila/dev/RazorPagesProject/RestaurantThingy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BM\\source\\repos\\RestaurantThingy\\RestaurantThingy\\RestaurantThingy.csproj": {
+    "/Users/danila/dev/RazorPagesProject/RestaurantThingy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BM\\source\\repos\\RestaurantThingy\\RestaurantThingy\\RestaurantThingy.csproj",
+        "projectUniqueName": "/Users/danila/dev/RazorPagesProject/RestaurantThingy.csproj",
         "projectName": "RestaurantThingy",
-        "projectPath": "C:\\Users\\BM\\source\\repos\\RestaurantThingy\\RestaurantThingy\\RestaurantThingy.csproj",
-        "packagesPath": "C:\\Users\\BM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BM\\source\\repos\\RestaurantThingy\\RestaurantThingy\\obj\\",
+        "projectPath": "/Users/danila/dev/RazorPagesProject/RestaurantThingy.csproj",
+        "packagesPath": "/Users/danila/.nuget/packages/",
+        "outputPath": "/Users/danila/dev/RazorPagesProject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\BM\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/danila/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }
