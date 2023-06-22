@@ -68,12 +68,14 @@ footer {
 
 .sushi-set {
     text-align: center;
+    font-weight: normal;
 }
 
 .sushi-image {
     width: 250px;
     height: 250px;
     margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .sushi-sets-heading {
@@ -105,7 +107,7 @@ footer {
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 260px; 
+    width: 260px;
     margin-bottom: 20px;
 }
 
@@ -131,4 +133,9 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.delivery-info-form button:hover {
+    background-color: #555;
 }
