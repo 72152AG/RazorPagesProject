@@ -25,7 +25,8 @@ namespace RestaurantThingy.Pages
             Products = new List<string>();
         }
 
-        public async Task<IActionResult> OnPostAsync(List<string> products, string name, string street, string city, string phone)
+        public async Task<IActionResult> OnPostAsync(List<string> products, string name, string street, string city,
+            string phone)
         {
             if (!ModelState.IsValid)
             {
@@ -38,7 +39,6 @@ namespace RestaurantThingy.Pages
                 Street = street,
                 City = city,
                 Phone = phone
-                
             };
 
             _context.Orders.Add(order);
