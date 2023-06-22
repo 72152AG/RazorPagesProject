@@ -155,7 +155,7 @@ footer {
 
 .story {
     text-align: left;
-    margin: 0 30%;
+    margin: 3% 30%;
     font-weight: normal;
 }
 
@@ -163,5 +163,10 @@ footer {
     font-size: 22px;
     font-weight: 500;
 }
-    
+
+.contact {
+    text-align: center;
+    margin: 3% 30%;
+    font-weight: normal;
+}
 
