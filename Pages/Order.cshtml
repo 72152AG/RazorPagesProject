@@ -4,55 +4,59 @@
     ViewData["Title"] = "Order";
 }
 
+
 <div>
     <h1 class="sushi-sets-heading">SUSHI SETS</h1>
 
-    <div class="sushi-sets">
-        <div class="sushi-set">
-            <img src="img/set1.png" class="sushi-image"/>
-            <h3 style="font-weight: normal">SET 1</h3>
-            <a>40 zł, 10 units</a>
-            <input type="checkbox" name="products" value="SET1">
+    <form method="post">
+        
+        <div class="sushi-sets">
+            <div class="sushi-set">
+                <img src="img/set1.png" class="sushi-image"/>
+                <h3 style="font-weight: normal">SET 1</h3>
+                <a>40 zł, 10 units</a>
+                <input type="checkbox" name="products" value="SET1">
+            </div>
+            <div class="sushi-set">
+                <img src="img/set2.png" class="sushi-image"/>
+                <h3 style="font-weight: normal">SET 2</h3>
+                <a>55 zł, 16 units</a>
+                <input type="checkbox" name="products" value="SET2">
+            </div>
+            <div class="sushi-set">
+                <img src="img/set3.png" class="sushi-image"/>
+                <h3 style="font-weight: normal">SET 3</h3>
+                <a>70 zł, 30 units</a>
+                <input type="checkbox" name="products" value="SET3">
+            </div>
+            <div class="sushi-set">
+                <img src="img/set4.png" class="sushi-image"/>
+                <h3 style="font-weight: normal">SET 4</h3>
+                <a>100 zł, 36 units</a>
+                <input type="checkbox" name="products" value="SET4">
+            </div>
+            <div class="sushi-set">
+                <img src="img/set5.png" class="sushi-image"/>
+                <h3 style="font-weight: normal">SET 5</h3>
+                <a>200 zł, 67 units</a>
+                <input type="checkbox" name="products" value="SET5">
+            </div>
         </div>
-        <div class="sushi-set">
-            <img src="img/set2.png" class="sushi-image"/>
-            <h3 style="font-weight: normal">SET 2</h3>
-            <a>55 zł, 16 units</a>
-            <input type="checkbox" name="products" value="SET2">
-        </div>
-        <div class="sushi-set">
-            <img src="img/set3.png" class="sushi-image"/>
-            <h3 style="font-weight: normal">SET 3</h3>
-            <a>70 zł, 30 units</a>
-            <input type="checkbox" name="products" value="SET3">
-        </div>
-        <div class="sushi-set">
-            <img src="img/set4.png" class="sushi-image"/>
-            <h3 style="font-weight: normal">SET 4</h3>
-            <a>100 zł, 36 units</a>
-            <input type="checkbox" name="products" value="SET4">
-        </div>
-        <div class="sushi-set">
-            <img src="img/set5.png" class="sushi-image"/>
-            <h3 style="font-weight: normal">SET 5</h3>
-            <a>200 zł, 67 units</a>
-            <input type="checkbox" name="products" value="SET5">
-        </div>
-    </div>
 
-    <div class="delivery-info-container">
-        <h3 class="delivery-info-heading">DELIVERY INFORMATION</h3>
-        <div class="delivery-info-form">
-            <label for="name">NAME</label>
-            <input type="text" name="name" id="name">
-            <label for="street">STREET</label>
-            <input type="text" name="street" id="street">
-            <label for="city">CITY</label>
-            <input type="text" name="city" id="city">
-            <label for="phone">PHONE</label>
-            <input type="text" name="phone" id="phone">
+        <div class="delivery-info-container">
+            <h3 class="delivery-info-heading">DELIVERY INFORMATION</h3>
+            <div class="delivery-info-form">
+                <label for="name">NAME</label>
+                <input type="text" name="name" id="name">
+                <label for="street">STREET</label>
+                <input type="text" name="street" id="street">
+                <label for="city">CITY</label>
+                <input type="text" name="city" id="city">
+                <label for="phone">PHONE</label>
+                <input type="text" name="phone" id="phone">
 
-            <button type="submit">PLACE ORDER</button>
+                <button type="submit">PLACE ORDER</button>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
