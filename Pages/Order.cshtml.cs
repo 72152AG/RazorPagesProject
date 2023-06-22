@@ -56,7 +56,7 @@ namespace RestaurantThingy.Pages
 
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("OrderConfirmation", new { orderId = order.OrderId });
+            return RedirectToPage("Confirmation", new { orderId = order.OrderId });
         }
     }
 }
