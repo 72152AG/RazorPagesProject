@@ -4,6 +4,13 @@ html {
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
 }
 
 .navbar {
@@ -138,3 +145,23 @@ footer {
 .delivery-info-form button:hover {
     background-color: #555;
 }
+
+.confirmation-description {
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.story {
+    text-align: left;
+    margin: 0 30%;
+    font-weight: normal;
+}
+
+.year {
+    font-size: 22px;
+    font-weight: 500;
+}
+    
+

@@ -11,47 +11,46 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
 </head>
 
-<body>
-<header>
+<div class="container">
+    <body>
+    <header>
 
-    @{
-        var currentPage = Context.Request.Path.Value;
-    }
+        @{
+            var currentPage = Context.Request.Path.Value;
+        }
 
-    <nav class="navbar">
-        <div class="navbar-item @(currentPage == "/Index" ? "active" : "")">
-            <a asp-area="" asp-page="/Index">UMAMI SUSHI</a>
-        </div>
-        <div class="navbar-item @(currentPage == "/Order" ? "active" : "")">
-            <a asp-area="" asp-page="/Order">MENU</a>
-        </div>
-        <div class="navbar-item @(currentPage == "/About" ? "active" : "")">
-            <a asp-area="" asp-page="/About">ABOUT</a>
-        </div>
-        <div class="navbar-item @(currentPage == "/Contact" ? "active" : "")">
-            <a asp-area="" asp-page="/Contact">CONTACT</a>
-        </div>
-        <div class="navbar-item @(currentPage == "/Confirmation" ? "active" : "")">
-            <a asp-area="" asp-page="/Confirmation">TEMP</a>
-        </div>
-    </nav>
-</header>
+        <nav class="navbar">
+            <div class="navbar-item @(currentPage == "/Index" ? "active" : "")">
+                <a asp-area="" asp-page="/Index">UMAMI SUSHI</a>
+            </div>
+            <div class="navbar-item @(currentPage == "/Order" ? "active" : "")">
+                <a asp-area="" asp-page="/Order">MENU</a>
+            </div>
+            <div class="navbar-item @(currentPage == "/About" ? "active" : "")">
+                <a asp-area="" asp-page="/About">ABOUT</a>
+            </div>
+            <div class="navbar-item @(currentPage == "/Contact" ? "active" : "")">
+                <a asp-area="" asp-page="/Contact">CONTACT</a>
+            </div>
+        </nav>
+    </header>
 
-<div>
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Umami Sushi - All rights reserved.</p>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    </body>
 </div>
-
-<footer class="footer">
-    <p>&copy; 2023 Umami Sushi - All rights reserved.</p>
-</footer>
-
-
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-
-@await RenderSectionAsync("Scripts", required: false)
-</body>
 </html>
