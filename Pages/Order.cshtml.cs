@@ -25,7 +25,7 @@ namespace RestaurantThingy.Pages
             Products = new List<string>();
         }
 
-        public async Task<IActionResult> OnPostAsync(List<string> products, string name, string address)
+        public async Task<IActionResult> OnPostAsync(Dictionary<string, int> products, string name, string street, string city, string phone)
         {
             if (!ModelState.IsValid)
             {
@@ -35,7 +35,9 @@ namespace RestaurantThingy.Pages
             var order = new Order
             {
                 Name = name,
-                Address = address
+                Street = street,
+                City = city,
+                Phone = phone
             };
 
             _context.Orders.Add(order);
@@ -43,17 +45,27 @@ namespace RestaurantThingy.Pages
 
             foreach (var product in products)
             {
-                var orderItem = new OrderItem
+                if (product.Value > 0)
                 {
-                    OrderId = order.OrderId,
-                    Product = product
-                };
-                _context.OrderItems.Add(orderItem);
+                    for (int i = 0; i < product.Value; i++)
+                    {
+                        var orderItem = new OrderItem
+                        {
+                            OrderId = order.OrderId,
+                            Product = product.Key
+                        };
+                        _context.OrderItems.Add(orderItem);
+                    }
+                }
             }
 
             await _context.SaveChangesAsync();
 
             return RedirectToPage("OrderConfirmation", new { orderId = order.OrderId });
         }
+
+
+
+
     }
 }

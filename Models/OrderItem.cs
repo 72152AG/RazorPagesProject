@@ -13,3 +13,5 @@ namespace RestaurantThingy.Models
         public string Product { get; set; }
     }
 }
+
+/* refer to Order.cs for explanation */

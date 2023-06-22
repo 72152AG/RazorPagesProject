@@ -13,17 +13,17 @@ namespace RestaurantThingy.Pages
     {
         private readonly ApplicationDbContext _context;
 
-        public List<Order> CompletedOrders { get; set; }
-
         public AdminModel(ApplicationDbContext context)
         {
             _context = context;
         }
 
+        public List<Order> CompletedOrders { get; set; }
+
         public async Task OnGetAsync()
         {
             CompletedOrders = await _context.Orders
-                .Include(o => o.Items) // Include the associated items
+                .Include(o => o.Items) // parameter apparently needed, not sure why, requires further investigation should pull directly from 'order' but doesnt (linq stuff)
                 .ToListAsync();
         }
 

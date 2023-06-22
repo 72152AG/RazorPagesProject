@@ -9,25 +9,35 @@
 
 @if (Model.CompletedOrders.Any())
 {
-    <table>
+    <table> <!-- not needed, used to label output in admin screen -->
         <tr>
             <th>Order ID</th>
             <th>Name</th>
-            <th>Address</th>
-            <th>Products</th> <!-- New column for products -->
-            <th>Action</th>
+            <th>Street</th>
+            <th>City</th>
+            <th>Phone Number</th>
+            <th>Action</th> 
         </tr>
         @foreach (var order in Model.CompletedOrders)
         {
-            <tr>
+            <tr> <!-- needed, used to pull information out of the database -->
                 <td>@order.OrderId</td>
                 <td>@order.Name</td>
-                <td>@order.Address</td>
+                <td>@order.Street</td>
+                <td>@order.City</td>
+                <td>@order.Phone</td>
+
                 <td>
+                    @{
+                        var productCounts = order.Items
+                        .GroupBy(item => item.Product)
+                        .Select(group => $"{group.Count()} times {group.Key}");
+                    }
+
                     <ul>
-                        @foreach (var item in order.Items)
+                        @foreach (var productCount in productCounts)
                         {
-                            <li>@item.Product</li>
+                            <li>@productCount</li>
                         }
                     </ul>
                 </td>
@@ -44,4 +54,5 @@ else
 {
     <p>No orders to be completed found.</p>
 }
+
 
