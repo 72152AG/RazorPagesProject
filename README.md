@@ -6,3 +6,5 @@ C# project made using RazorPages, focused on creating a simple client-server int
 - After the order is placed, it will appear a the admin panel.
 
 REMEMBER TO BUILD A DATABASE BEFORE ATTEMPTING TO ACTUALLY USE (SHELL --> dotnet ef migrations add InitialCreate, dotnet ef database update)
+
+http://drusak-001-site1.ftempurl.com/
