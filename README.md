@@ -6,7 +6,8 @@ C# project made using RazorPages, focused on creating a simple client-server int
 - To place an order, direct to the menu subpage, choose products, provide your information, and click the SUBMIT button.
 - After the order is placed, it will appear a the admin panel.
 
-
 ### REMEMBER TO BUILD A DATABASE BEFORE ATTEMPTING TO ACTUALLY USE (SHELL --> dotnet ef migrations add InitialCreate, dotnet ef database update)
 
 http://drusak-001-site1.ftempurl.com/
+
+❗️ Despite encountering hosting issues, this application functions correctly only when used locally ❗️
